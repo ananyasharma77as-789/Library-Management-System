@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 PageTurn Library</h1>
+    <p>Add a New Book</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="7.html">Book Collection</a>
+    <a href="8.html" class="active">Add Book</a>
+</nav>
+
+<div class="container">
+    <h2>Add a New Book</h2>
+
+    <form id="bookForm">
+
+        <label>Book ID:</label>
+        <input type="text" id="bookId"
+        placeholder="Enter Book ID" required>
+
+        <label>Book Title:</label>
+        <input type="text" id="bookTitle"
+        placeholder="Enter Book Title" required>
+
+        <label>Author:</label>
+        <input type="text" id="bookAuthor"
+        placeholder="Enter Author Name" required>
+
+        <label>Category:</label>
+        <select id="bookCategory" required>
+            <option value="">Select Category</option>
+            <option>Fiction</option>
+            <option>Science</option>
+            <option>Technology</option>
+            <option>History</option>
+            <option>Biography</option>
+            <option>Education</option>
+            <option>Literature</option>
+        </select>
+
+        <button type="submit">Add Book</button>
+
+    </form>
+</div>
+
+<footer>
+    <p>PageTurn Library Management System</p>
+</footer>
+
+<script src="6.js"></script>
+</body>
+</html>
